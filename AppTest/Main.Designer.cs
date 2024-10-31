@@ -1,6 +1,6 @@
 ﻿namespace AppTest
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,21 +35,21 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(222, 145);
+            label1.ForeColor = Color.Crimson;
+            label1.Location = new Point(169, 152);
             label1.Name = "label1";
-            label1.Size = new Size(327, 128);
+            label1.Size = new Size(493, 128);
             label1.TabIndex = 0;
-            label1.Text = "Hello !";
+            label1.Text = "Hello  Ji ....";
             // 
-            // Form1
+            // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Main";
             ResumeLayout(false);
             PerformLayout();
         }
